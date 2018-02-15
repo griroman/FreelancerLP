@@ -1,0 +1,230 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-height: 100%;
+}
+h1, h2,h3, h5, p, ul {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	/*padding: 0 15px 0 15px;*/
+}
+.more {
+	color: #fa5c65;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.more:hover {
+	color: #fa5c00;
+}
+header {
+	background: url(../img/Photo.jpg) no-repeat center 0 / cover;
+	/*background-repeat: no-repeat;*/
+	/*-webkit-background-size: cover;*/
+	/*background-size: cover;*/
+	position: relative;
+	/*height: 1057px;*/
+	height: 100vh;
+	background-attachment: fixed;
+	width: 100%;
+}
+.navbar { 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.header_title {
+	/*flex-basis: 100%;*/
+}
+.main_slogan {
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+.main_slogan span {
+	color: #fa5c65;
+}
+.main_title, .read_more {
+	font-family: 'Open Sans', sans-serif;
+
+}
+.header_title {
+	/*height: 300px;*/
+	/*padding: 300px 0 0*/
+}
+.main_title {
+	color: #314a5b;
+	font-size: 20px;
+	padding: 14px 0 40px 0;
+}
+.header_title .read_more_link {
+	display: block;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	/*padding: 20px 41px 20px 41px;*/
+	width: 171px;
+	background-color: #fa5c65;
+	border-radius: 5px;
+	line-height: 64px;
+	text-align: center;
+}
+.section_1 {
+	margin: 64px 0 85px 0;
+}
+.section_1_title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	color: #314a5b;
+	text-transform: uppercase;
+	width: 220px;
+}
+.section_1_title span {
+	color: #fa5c65;
+}
+.section_1_text {
+	color: #9aa0ab;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	/*width: 300px;*/
+	margin: 18px 0 27px 0;
+}
+.section_2 {
+	margin: 0 0 98px 0;
+}
+.section_2_title {
+	padding: 50px 0 0 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+.section_1_title span {
+	color: #fa5c65;
+}
+.section_2_text {
+	color: #9aa0ab;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	width: 350px;
+	margin: 18px 0 27px 0;
+}
+.section_3 {
+	margin: 0 0 60px 0;
+}
+.section_3_title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+.section_3_title span {
+	color: #fa5c65;
+}
+.section_3 .team img {
+	margin: 0 20px 0 0;
+}
+.section_3_text {
+	color: #9aa0ab;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0 0 35px 0;
+}
+.section_3 .team_block h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+.section_3 .profession {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #f0454c;
+}
+.section_3 .team_text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #9aa0ab;
+}
+footer .container{
+	border-top: 1px solid #e6eaed;
+	padding: 33px 0 33px 0;
+}
+.social {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.social_item a {
+	color: #b9c0c6;
+	font-size: 20px;
+}
+.social_item a:hover {
+	color: #6e7377;
+}
+.footer_copyright {
+	color: #b9c0c6;
+	padding: 0;
+	margin: 0;
+}
+
+/*Media*/
+@media screen  and (max-width: 992px) {
+	.navbar {
+		margin: 30px auto;
+	}
+}
+@media screen  and (max-width: 768px) {
+	h1, h2, h3, h5 {
+		margin: 0 auto;
+	}
+	.section_1_wrapper {
+		flex-direction: column;
+	}
+	.header_title, .read_more_link,
+	.section_1_left, .section_1_middle, 
+	.section_1_right, .section_2,
+	.section_2_text, .section_3_title, .section_3_text,
+	.section_3 .more {
+		margin: 10px auto;
+		text-align: center;
+	}
+	.section_3 {
+		margin: 45px 0 0 0;
+	}
+	.section_3 .team {
+		margin: 10px 0 15px 0;
+	}
+	.footer_copyright {
+		margin: 10px auto;
+	}
+}
+@media screen  and (max-width: 576px) {
+	.main_slogan {
+		font-size: 42px;
+	}
+	.section_2 img {
+		width: 100%;
+	}
+	.section_2_text {
+		width: 280px;
+	}
+	.read_more_link {
+		margin: 10px auto;
+		/*display: inline;*/
+		padding: 0;
+		width: 100%;
+	}
+}
